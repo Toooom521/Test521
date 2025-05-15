@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 全局样式 */
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: 'YongGanHei', 'Microsoft YaHei', 'PingFang SC', 'SimHei', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 字体声明 */
+@layer base {
+  @font-face {
+    font-family: 'FengKuangYuan';
+    src: url('/fonts/AaFengKuangYuanShiRen-2.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'JiangHuGuFeng';
+    src: url('/fonts/ZiKuJiangHuGuFengTi-2.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'YongGanHei';
+    src: url('/fonts/励字勇敢黑简 大黑.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+}
+
+.title-font {
+  font-family: 'YongGanHei', 'Microsoft YaHei', 'PingFang SC', 'SimHei', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1.font-custom {
+  font-family: 'YongGanHei', 'Microsoft YaHei', 'PingFang SC', 'SimHei', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 煮意专用字体类 */
+.zhuyi-font {
+  font-family: 'JiangHuGuFeng', 'Microsoft YaHei', 'PingFang SC', 'SimHei', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 通用文本字体类 */
+.text-font {
+  font-family: 'YongGanHei', 'Microsoft YaHei', 'PingFang SC', 'SimHei', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} 
